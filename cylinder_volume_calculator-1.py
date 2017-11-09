@@ -9,8 +9,11 @@ def calculate_volume(radius, height):
     
     pi = 3.14
     
-    volume = 2 * pi * radius**2 * height
-    return volume
+    if radius < 0 or height < 0:
+        return "-1"
+    else:
+        volume = 2 * pi * radius**2 * height
+        return "Volume: " + str(volume) + " cm^3"
 
 def calculate_touch_up_inside(sender):
     # button to calculate
@@ -23,7 +26,7 @@ def calculate_touch_up_inside(sender):
     volume_answer = calculate_volume(radius_input, height_input)
 
     # output
-    view['answer_label'].text = "Volume = " + str(volume_answer) + " cm^3"
+    view['answer_label'].text = volume_answer
 
 view = ui.load_view()
 view.present('sheet')
