@@ -1,0 +1,109 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {540, 540}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Enter radius and height in cm to calculate volume of a cylinder:",
+          "font_name" : "<System>",
+          "name" : "instruction_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "66F03542-C513-4B96-99A3-22E94D223285"
+        },
+        "frame" : "{{14, 18}, {512, 32}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "font_name" : "<System>",
+          "uuid" : "A3EB1CD2-EFA4-483A-AA80-5F193390508C",
+          "autocorrection_type" : "default",
+          "name" : "radius_textfield",
+          "class" : "TextField",
+          "alignment" : "left",
+          "placeholder" : "Radius",
+          "frame" : "{{170, 254}, {200, 32}}",
+          "spellchecking_type" : "default"
+        },
+        "frame" : "{{14, 58}, {200, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "font_name" : "<System>",
+          "uuid" : "44947A6E-E63A-401E-9759-652A335BDA86",
+          "autocorrection_type" : "default",
+          "name" : "height_textfield",
+          "class" : "TextField",
+          "alignment" : "left",
+          "placeholder" : "Height",
+          "frame" : "{{170, 254}, {200, 32}}",
+          "spellchecking_type" : "default"
+        },
+        "frame" : "{{14, 98}, {200, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "title" : "Calculate",
+          "name" : "calculate_button",
+          "action" : "calculate_touch_up_inside",
+          "class" : "Button",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "uuid" : "FB9935FC-4645-4AF7-9167-907D3797ACAD"
+        },
+        "frame" : "{{318, 75}, {105, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "",
+          "font_name" : "<System>",
+          "name" : "answer_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "FF31EDAB-095C-4698-9836-DA50E6B2C9A3"
+        },
+        "frame" : "{{14, 138}, {512, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
